@@ -44,5 +44,13 @@ public class Main {
         System.out.println("Разница в массе между бойцами равна " + massDifferenceFighter + "кг");
         var massDifference = (secondFighter + firstFighter) % firstFighter;
         System.out.println("Разница в массе при остатке деления " + massDifference + "кг");
+
+        var totalOperatingTime = 360;
+        var timeAlone = 8;
+        var totalStaff = totalOperatingTime / timeAlone;
+        System.out.println("Всего работников в компании - " + totalStaff + "человек");
+        totalStaff = totalStaff + 94;
+        totalOperatingTime = totalStaff * timeAlone;
+        System.out.println("Если в компании работает " + totalStaff + " человек, то всего " + totalOperatingTime + " часов работы может быть поделено между сотрудниками");
     }
 }
