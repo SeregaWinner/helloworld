@@ -15,13 +15,13 @@ public class Main {
         double weightContainer = 22.85;
           System.out.println("Значение переменной с типом double равно " + weightContainer);
 
-        float a = 27.12F;
-        long b = 987678965549L;
-        double c = 2.786;
-        short d = 569;
-        int e = -159;
-        int f =  27897;
-        byte g = 67;
+        float number_A = 27.12F;
+        long number_B = 987678965549L;
+        double number_C = 2.786;
+        short number_D = 569;
+        int number_E = -159;
+        int number_F =  27897;
+        byte number_G = 67;
 
         byte firstTeacher = 23;
         byte secondTeacher = 27;
