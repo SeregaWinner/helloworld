@@ -82,9 +82,9 @@ public class Main {
         double annualIncomeMasha = salaryMasha * 12;
         double annualIncomeDenis = salaryDenis * 12;
         double annualIncomeChristina = salaryChristina * 12;
-        double increaseMasha = salaryMasha * 1.1;
-        double increaseDenis = salaryDenis * 1.1;
-        double increaseChristina = salaryChristina * 1.1;
+        float increaseMasha = salaryMasha * 1.1f;
+        float increaseDenis = salaryDenis * 1.1f;
+        float increaseChristina = salaryChristina * 1.1f;
         double incomeAfterIncreaseMasha = increaseMasha * 12;
         double incomeAfterIncreaseDenis = increaseDenis * 12;
         double incomeAfterIncreaseChristina = increaseChristina * 12;
