@@ -79,12 +79,13 @@ public class Main {
         int salaryMasha = 67760;
         int salaryDenis = 83690;
         int salaryChristina = 76230;
+        int interestRate = 10;
         double annualIncomeMasha = salaryMasha * 12;
         double annualIncomeDenis = salaryDenis * 12;
         double annualIncomeChristina = salaryChristina * 12;
-        float increaseMasha = salaryMasha * 1.1f;
-        float increaseDenis = salaryDenis * 1.1f;
-        float increaseChristina = salaryChristina * 1.1f;
+        double increaseMasha = (annualIncomeMasha / 100)* interestRate;
+        double increaseDenis = (annualIncomeDenis/100)* interestRate;
+        double increaseChristina = (annualIncomeChristina /100)* interestRate;
         double incomeAfterIncreaseMasha = increaseMasha * 12;
         double incomeAfterIncreaseDenis = increaseDenis * 12;
         double incomeAfterIncreaseChristina = increaseChristina * 12;
