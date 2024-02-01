@@ -15,13 +15,13 @@ public class Main {
         double weightContainer = 22.85;
           System.out.println("Значение переменной с типом double равно " + weightContainer);
 
-        float number_A = 27.12F;
-        long number_B = 987678965549L;
-        double number_C = 2.786;
-        short number_D = 569;
-        int number_E = -159;
-        int number_F =  27897;
-        byte number_G = 67;
+        float numberA = 27.12F;
+        long numberB = 987678965549L;
+        double numberC = 2.786;
+        short numberD = 569;
+        int numberE = -159;
+        int numberF =  27897;
+        byte numberG = 67;
 
         byte firstTeacher = 23;
         byte secondTeacher = 27;
@@ -69,12 +69,12 @@ public class Main {
 
         byte needResetKilo = 7;
         int needResetGtamm = needResetKilo * 1000;
-        short gramm_A = 250;
-        short gramm_B = 500;
-        int diet_A = needResetGtamm / gramm_A;
-          System.out.println("При первой диете вернуться в весовую категорию удасться за " + diet_A + " дней");
-        int diet_B = needResetGtamm / gramm_B;
-          System.out.println("При второй диете вернуться в весовую категорию удасться за " + diet_B + " дней");
+        short grammA = 250;
+        short grammB = 500;
+        int dietA = needResetGtamm / grammA;
+          System.out.println("При первой диете вернуться в весовую категорию удасться за " + dietA + " дней");
+        int dietB = needResetGtamm / grammB;
+          System.out.println("При второй диете вернуться в весовую категорию удасться за " + dietB + " дней");
 
         int salaryMasha = 67760;
         int salaryDenis = 83690;
