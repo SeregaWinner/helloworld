@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Привет Мир!");
 
         byte box = 5;
           System.out.println("Значение переменной с типом byte равно " + box );
@@ -75,6 +74,8 @@ public class Main {
           System.out.println("При первой диете вернуться в весовую категорию удасться за " + dietA + " дней");
         int dietB = needResetGtamm / grammB;
           System.out.println("При второй диете вернуться в весовую категорию удасться за " + dietB + " дней");
+        float dayMidle = ((dietA + dietB)/100f)*50;
+          System.out.println("При чередовании диеты вернуться в весовую категорию удасться " + dayMidle + " день");
 
         int salaryMasha = 67760;
         int salaryDenis = 83690;
