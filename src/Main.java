@@ -27,11 +27,13 @@ public class Main {
         }
 
         System.out.println("Задание 3");
-        int year = 2021;
+        int year = 1585;
         int a = year % 400;
         int b = year % 100;
         int c = year % 4;
-        if (year > 1584 && c == 0 && b != 0 || a == 0) {
+        if (year < 1584){
+            System.out.println("До 1584 понятие високосного года не существовало!");
+        }else if ((year >= 1584 && c == 0 && b != 0) ||(year > 1584 && a == 0)){
             System.out.println(year + " год является високосным!");
         } else {
             System.out.println(year + " год не являеться високосным");
